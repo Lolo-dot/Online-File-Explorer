@@ -1,0 +1,23 @@
+{
+  "name": "online-file-explorer",
+  "version": "1.0.0",
+  "description": "an online file explorer",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lolo-dot/Online-File-Explorer.git"
+  },
+  "author": "Elochukwu BOC-Ifeobu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lolo-dot/Online-File-Explorer/issues"
+  },
+  "homepage": "https://github.com/Lolo-dot/Online-File-Explorer#readme"
+}
