@@ -4,7 +4,7 @@ const http = require("http");
 //file imports
 const respond = require("./lib/respond.js");
 //connection settings
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 
 // create server
 const server = http.createServer(respond);
