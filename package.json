@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon app.js",
+    "build": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Lolo-dot/Online-File-Explorer/issues"
   },
-  "homepage": "https://github.com/Lolo-dot/Online-File-Explorer#readme"
+  "homepage": "https://github.com/Lolo-dot/Online-File-Explorer#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
